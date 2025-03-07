@@ -7,7 +7,7 @@ import os
 
 def error_search(log_file):
     error = input("What is the error? ")
-    errors = []
+    error_list = []
 
     with open(log_file, mode="r", encoding="UTF-8") as file:
         for log in file.readlines():
@@ -21,9 +21,9 @@ def error_search(log_file):
                     match = False
 
             if match:
-                errors.append(log)
+                error_list.append(log)
         file.close()
-    return errors
+    return error_list
 
 
 def file_output(returned_errors):
