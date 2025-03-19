@@ -1,5 +1,5 @@
 {
-  "editor.defaultFormatter": null,
+  "editor.defaultFormatter": "charliermarsh.ruff",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
