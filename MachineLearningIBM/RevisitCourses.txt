@@ -1,6 +1,7 @@
 Machine Learning with Python
--- Labs to be completed
 https://www.coursera.org/learn/machine-learning-with-python/home
+-- Labs to be completed
+
 
 Python Project for Data Science
 -- Nothing Completed
